@@ -22,7 +22,7 @@ As overall, African  ccTLDs are characterised by the usage of out of region reso
 We have installed  the [Zonemaster-LDNS](https://github.com/zonemaster/zonemaster-ldns/blob/master/README.md), the [Zonemaster-Engine](https://github.com/zonemaster/zonemaster-engine/blob/master/docs/Installation.md)  and the [Zonemaster-CLI](https://github.com/zonemaster/zonemaster-cli/blob/master/docs/Installation.md) following zonemaster installation documentation.  Zonemaster-Engine and Zonemaster-LDNS are dependencies of Zonemaster-CLI.
 
 ### Data collection script
-We use the script `[data_collector.py](./scripts/data_collector.py)` to collect data for African ccTLDs and top 10 ccTLDs.
+We use the script [`data_collector.py`](./scripts/data_collector.py) to collect data for African ccTLDs and top 10 ccTLDs.
 
 
 ## Dataset
