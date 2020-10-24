@@ -175,7 +175,7 @@ class WhoisIANA(WhoisEntry):
             WhoisEntry.__init__(self, domain, text, self.regex)
 
 class WhoisClient(object) :
-    # Adapated from https://gist.github.com/carmaa/3686059
+    # Adapted from https://gist.github.com/carmaa/3686059
     def __init__(self):
         self.whois_server = "whois.iana.org"
 
