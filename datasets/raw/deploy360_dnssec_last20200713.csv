@@ -1,0 +1,856 @@
+DNSSEC database status for TLDs as of 2020-07-13
+TLD,Status,Is Principal,Is Test,Is IDN,Is Country,Is Regional,Map Region
+AU, Operational, 1, 0, 0, 1, 0, AP
+BG, Operational, 1, 0, 0, 1, 0, EUR
+BR, Operational, 1, 0, 0, 1, 0, LAC
+CA, Operational, 1, 0, 0, 1, 0, NA
+CH, Operational, 1, 0, 0, 1, 0, EUR
+CL, Operational, 1, 0, 0, 1, 0, LAC
+CZ, Operational, 1, 0, 0, 1, 0, EUR
+DE, Operational, 1, 0, 0, 1, 0, EUR
+FR, Operational, 1, 0, 0, 1, 0, EUR
+UK, Operational, 1, 0, 0, 1, 0, EUR
+IN, Operational, 1, 0, 0, 1, 0, AP
+IR, Experimental, 1, 0, 0, 1, 0, AP
+JP, Operational, 1, 0, 0, 1, 0, AP
+KR, Operational, 1, 0, 0, 1, 0, AP
+LI, Operational, 1, 0, 0, 1, 0, EUR
+LK, Operational, 1, 0, 0, 1, 0, AP
+MX, Operational, 1, 0, 0, 1, 0, LAC
+MY, Operational, 1, 0, 0, 1, 0, AP
+NA, Operational, 1, 0, 0, 1, 0, AF
+NL, Operational, 1, 0, 0, 1, 0, EUR
+NZ, Operational, 1, 0, 0, 1, 0, AP
+PR, Operational, 1, 0, 0, 1, 0, LAC
+PT, Operational, 1, 0, 0, 1, 0, EUR
+SE, Operational, 1, 0, 0, 1, 0, EUR
+SG, DS in Root, 1, 0, 0, 1, 0, AP
+TH, Operational, 1, 0, 0, 1, 0, AP
+TM, Operational, 1, 0, 0, 1, 0, AP
+TW, Operational, 1, 0, 0, 1, 0, AP
+UM, Experimental, 1, 0, 0, 1, 0, AP
+US, Operational, 1, 0, 0, 1, 0, NA
+AERO, Experimental, 0, 0, 0, 0, 0, None
+ARPA, DS in Root, 0, 0, 0, 0, 0, None
+ASIA, DS in Root, 0, 0, 0, 0, 0, None
+BIZ, Operational, 0, 0, 0, 0, 0, None
+CAT, DS in Root, 0, 0, 0, 0, 0, None
+COM, Operational, 0, 0, 0, 0, 0, None
+EDU, Operational, 0, 0, 0, 0, 0, None
+GOV, Operational, 0, 0, 0, 0, 0, None
+INFO, DS in Root, 0, 0, 0, 0, 0, None
+MIL, DS in Root, 0, 0, 0, 0, 0, None
+MOBI, Experimental, 0, 0, 0, 0, 0, None
+MUSEUM, Operational, 0, 0, 0, 0, 0, None
+NAME, DS in Root, 0, 0, 0, 0, 0, None
+NET, Operational, 0, 0, 0, 0, 0, None
+ORG, Operational, 0, 0, 0, 0, 0, None
+POST, DS in Root, 0, 0, 0, 0, 0, None
+ROOT, Operational, 0, 0, 0, 0, 0, None
+DK, Operational, 1, 0, 0, 1, 0, EUR
+NU, DS in Root, 1, 0, 0, 1, 0, AP
+PM, Operational, 1, 0, 0, 1, 0, NA
+RE, Operational, 1, 0, 0, 1, 0, AF
+RU, Operational, 1, 0, 0, 1, 0, EUR
+BE, Operational, 1, 0, 0, 1, 0, EUR
+AG, DS in Root, 1, 0, 0, 1, 0, LAC
+LC, DS in Root, 1, 0, 0, 1, 0, LAC
+MN, Operational, 1, 0, 0, 1, 0, AP
+SC, Operational, 1, 0, 0, 1, 0, AF
+TF, Operational, 1, 0, 0, 1, 0, AP
+VC, DS in Root, 1, 0, 0, 1, 0, LAC
+YT, Operational, 1, 0, 0, 1, 0, AF
+BZ, DS in Root, 1, 0, 0, 1, 0, LAC
+FI, Operational, 1, 0, 0, 1, 0, EUR
+GI, DS in Root, 1, 0, 0, 1, 0, EUR
+HN, Operational, 1, 0, 0, 1, 0, LAC
+ME, Operational, 1, 0, 0, 1, 0, EUR
+CN, Operational, 1, 0, 0, 1, 0, AP
+AM, Operational, 1, 0, 0, 1, 0, AP
+CO, Operational, 1, 0, 0, 1, 0, LAC
+EU, Operational, 0, 0, 0, 0, 1, None
+GH, Announced, 1, 0, 0, 1, 0, AF
+GR, Operational, 1, 0, 0, 1, 0, EUR
+GB, Experimental, 0, 0, 0, 1, 0, EUR
+KG, DS in Root, 1, 0, 0, 1, 0, AP
+LA, DS in Root, 1, 0, 0, 1, 0, AP
+LU, Operational, 1, 0, 0, 1, 0, EUR
+WF, Operational, 1, 0, 0, 1, 0, AP
+IE, Operational, 1, 0, 0, 1, 0, EUR
+LV, Operational, 1, 0, 0, 1, 0, EUR
+AC, Operational, 1, 0, 0, 1, 0, AF
+IO, Operational, 1, 0, 0, 1, 0, AP
+MM, DS in Root, 1, 0, 0, 1, 0, AP
+NC, DS in Root, 1, 0, 0, 1, 0, AP
+SH, Operational, 1, 0, 0, 1, 0, AF
+UG, DS in Root, 1, 0, 0, 1, 0, AF
+GL, DS in Root, 1, 0, 0, 1, 0, NA
+AD, DS in Root, 1, 0, 0, 1, 0, EUR
+AF, Operational, 1, 0, 0, 1, 0, AP
+AI, Experimental, 1, 0, 0, 1, 0, LAC
+AR, DS in Root, 1, 0, 0, 1, 0, LAC
+AT, Operational, 1, 0, 0, 1, 0, EUR
+AW, DS in Root, 1, 0, 0, 1, 0, LAC
+AX, DS in Root, 1, 0, 0, 1, 0, EUR
+AZ, DS in Root, 1, 0, 0, 1, 0, AP
+BM, DS in Root, 1, 0, 0, 1, 0, NA
+BT, DS in Root, 1, 0, 0, 1, 0, AP
+BW, DS in Root, 1, 0, 0, 1, 0, AF
+BY, Operational, 1, 0, 0, 1, 0, EUR
+CC, DS in Root, 1, 0, 0, 1, 0, AP
+CI, Operational, 1, 0, 0, 1, 0, AF
+CR, Operational, 1, 0, 0, 1, 0, LAC
+CX, Operational, 1, 0, 0, 1, 0, AP
+DZ, DS in Root, 1, 0, 0, 1, 0, AF
+EE, Operational, 1, 0, 0, 1, 0, EUR
+ES, Operational, 1, 0, 0, 1, 0, EUR
+FO, DS in Root, 1, 0, 0, 1, 0, EUR
+GA, Partial, 1, 0, 0, 1, 0, AF
+GD, DS in Root, 1, 0, 0, 1, 0, LAC
+GN, DS in Root, 1, 0, 0, 1, 0, AF
+GS, Operational, 1, 0, 0, 1, 0, LAC
+GW, DS in Root, 1, 0, 0, 1, 0, AF
+GY, DS in Root, 1, 0, 0, 1, 0, LAC
+HK, Operational, 1, 0, 0, 1, 0, AP
+HR, Operational, 1, 0, 0, 1, 0, EUR
+HT, DS in Root, 1, 0, 0, 1, 0, LAC
+HU, Operational, 1, 0, 0, 1, 0, EUR
+ID, DS in Root, 1, 0, 0, 1, 0, AP
+IL, Operational, 1, 0, 0, 1, 0, AP
+IQ, Partial, 1, 0, 0, 1, 0, AP
+IS, Operational, 1, 0, 0, 1, 0, EUR
+IT, Operational, 1, 0, 0, 1, 0, EUR
+KE, Operational, 1, 0, 0, 1, 0, AF
+KI, Operational, 1, 0, 0, 1, 0, AP
+KW, DS in Root, 1, 0, 0, 1, 0, AP
+KY, DS in Root, 1, 0, 0, 1, 0, LAC
+LB, DS in Root, 1, 0, 0, 1, 0, AP
+LR, DS in Root, 1, 0, 0, 1, 0, AF
+LT, Operational, 1, 0, 0, 1, 0, EUR
+MA, DS in Root, 1, 0, 0, 1, 0, AF
+MC, DS in Root, 1, 0, 0, 1, 0, EUR
+MD, DS in Root, 1, 0, 0, 1, 0, EUR
+MG, DS in Root, 1, 0, 0, 1, 0, AF
+MR, DS in Root, 1, 0, 0, 1, 0, AF
+MS, Partial, 1, 0, 0, 1, 0, LAC
+MU, Operational, 1, 0, 0, 1, 0, AF
+NF, Operational, 1, 0, 0, 1, 0, AP
+NO, Operational, 1, 0, 0, 1, 0, EUR
+PE, Operational, 1, 0, 0, 1, 0, LAC
+PL, Operational, 1, 0, 0, 1, 0, EUR
+PW, DS in Root, 1, 0, 0, 1, 0, AP
+PY, Announced, 1, 0, 0, 1, 0, LAC
+RO, Operational, 1, 0, 0, 1, 0, EUR
+RS, DS in Root, 1, 0, 0, 1, 0, EUR
+RW, Experimental, 1, 0, 0, 1, 0, AF
+SA, Operational, 1, 0, 0, 1, 0, AP
+SB, Operational, 1, 0, 0, 1, 0, AP
+SD, Announced, 1, 0, 0, 1, 0, AF
+SI, Operational, 1, 0, 0, 1, 0, EUR
+SJ, DS in Root, 1, 0, 0, 1, 0, EUR
+SK, DS in Root, 1, 0, 0, 1, 0, EUR
+SN, DS in Root, 1, 0, 0, 1, 0, AF
+SU, Operational, 0, 0, 0, 0, 1, None
+SY, DS in Root, 1, 0, 0, 1, 0, AP
+TL, Operational, 1, 0, 0, 1, 0, AP
+TN, DS in Root, 1, 0, 0, 1, 0, AF
+TO, Experimental, 1, 0, 0, 1, 0, AP
+TR, Announced, 1, 0, 0, 1, 0, AP
+TT, Operational, 1, 0, 0, 1, 0, LAC
+TV, DS in Root, 1, 0, 0, 1, 0, AP
+TZ, Operational, 1, 0, 0, 1, 0, AF
+UA, Operational, 1, 0, 0, 1, 0, EUR
+UY, Operational, 1, 0, 0, 1, 0, LAC
+VE, DS in Root, 1, 0, 0, 1, 0, LAC
+VN, Operational, 1, 0, 0, 1, 0, AP
+VU, DS in Root, 1, 0, 0, 1, 0, AP
+WS, DS in Root, 1, 0, 0, 1, 0, AP
+XN--0ZWM56D, DS in Root, 0, 1, 1, 0, 0, None
+XN--11B5BS3A9AJ6G, DS in Root, 0, 1, 1, 0, 0, None
+XN--3E0B707E, Operational, 0, 0, 1, 1, 0, AP
+XN--45BRJ9C, DS in Root, 0, 0, 1, 1, 0, AP
+XN--80AKHBYKNJ4F, DS in Root, 0, 1, 1, 0, 0, None
+XN--9T4B11YI5A, DS in Root, 0, 1, 1, 0, 0, None
+XN--DEBA0AD, DS in Root, 0, 1, 1, 0, 0, None
+XN--FIQS8S, DS in Root, 0, 0, 1, 1, 0, AP
+XN--FIQZ9S, DS in Root, 0, 0, 1, 1, 0, AP
+XN--FPCRJ9C3D, DS in Root, 0, 0, 1, 1, 0, AP
+XN--FZC2C9E2C, Partial, 0, 0, 1, 1, 0, AP
+XN--G6W251D, DS in Root, 0, 1, 1, 0, 0, None
+XN--GECRJ9C, DS in Root, 0, 0, 1, 1, 0, AP
+XN--H2BRJ9C, DS in Root, 0, 0, 1, 1, 0, AP
+XN--HGBK6AJ7F53BBA, DS in Root, 0, 1, 1, 0, 0, None
+XN--HLCJ6AYA9ESC7A, DS in Root, 0, 1, 1, 0, 0, None
+XN--JXALPDLP, DS in Root, 0, 1, 1, 0, 0, None
+XN--KGBECHTV, DS in Root, 0, 1, 1, 0, 0, None
+XN--KPRW13D, Operational, 0, 0, 1, 1, 0, AP
+XN--KPRY57D, Operational, 0, 0, 1, 1, 0, AP
+XN--LGBBAT1AD8J, Announced, 0, 0, 1, 1, 0, AF
+XN--MGBBH1A71E, DS in Root, 0, 0, 1, 1, 0, AP
+XN--O3CW4H, Operational, 0, 0, 1, 1, 0, AP
+XN--P1AI, Operational, 0, 0, 1, 1, 0, EUR
+XN--PGBS0DH, DS in Root, 0, 0, 1, 1, 0, AF
+XN--S9BRJ9C, DS in Root, 0, 0, 1, 1, 0, AP
+XN--WGBH1C, DS in Root, 0, 0, 1, 1, 0, AF
+XN--XKC2AL3HYE2A, Partial, 0, 0, 1, 1, 0, AP
+XN--XKC2DL3A5EE0H, DS in Root, 0, 0, 1, 1, 0, AP
+XN--ZCKZAH, DS in Root, 0, 1, 1, 0, 0, None
+XXX, DS in Root, 0, 0, 0, 0, 0, None
+ZA, Operational, 1, 0, 0, 1, 0, AF
+ZM, Operational, 1, 0, 0, 1, 0, AF
+XN--J1AMH, Experimental, 0, 0, 1, 1, 0, EUR
+XN--MGBX4CD0AB, DS in Root, 0, 0, 1, 1, 0, AP
+SX, Operational, 1, 0, 0, 1, 0, LAC
+XN--L1ACC, DS in Root, 0, 0, 1, 1, 0, AP
+CAMERA, DS in Root, 1, 0, 0, 0, 0, None
+XN--80ASEHDB, DS in Root, 1, 0, 1, 0, 0, None
+XN--80ASWG, DS in Root, 1, 0, 1, 0, 0, None
+XN--NGBC5AZD, DS in Root, 1, 0, 1, 0, 0, None
+XN--UNUP4Y, DS in Root, 1, 0, 1, 0, 0, None
+CLOTHING, DS in Root, 1, 0, 0, 0, 0, None
+EQUIPMENT, DS in Root, 1, 0, 0, 0, 0, None
+GURU, DS in Root, 1, 0, 0, 0, 0, None
+HOLDINGS, DS in Root, 1, 0, 0, 0, 0, None
+LIGHTING, DS in Root, 1, 0, 0, 0, 0, None
+SINGLES, DS in Root, 1, 0, 0, 0, 0, None
+VENTURES, DS in Root, 1, 0, 0, 0, 0, None
+VOYAGE, DS in Root, 1, 0, 0, 0, 0, None
+BIKE, DS in Root, 0, 0, 0, 0, 0, None
+CONSTRUCTION, DS in Root, 0, 0, 0, 0, 0, None
+CONTRACTORS, DS in Root, 0, 0, 0, 0, 0, None
+ESTATE, DS in Root, 0, 0, 0, 0, 0, None
+GALLERY, DS in Root, 0, 0, 0, 0, 0, None
+GRAPHICS, DS in Root, 0, 0, 0, 0, 0, None
+LAND, DS in Root, 0, 0, 0, 0, 0, None
+PLUMBING, DS in Root, 0, 0, 0, 0, 0, None
+TECHNOLOGY, DS in Root, 0, 0, 0, 0, 0, None
+DIAMONDS, DS in Root, 0, 0, 0, 0, 0, None
+DIRECTORY, DS in Root, 0, 0, 0, 0, 0, None
+ENTERPRISES, DS in Root, 0, 0, 0, 0, 0, None
+KITCHEN, DS in Root, 0, 0, 0, 0, 0, None
+PHOTOGRAPHY, DS in Root, 0, 0, 0, 0, 0, None
+TIPS, DS in Root, 0, 0, 0, 0, 0, None
+TODAY, DS in Root, 0, 0, 0, 0, 0, None
+SEXY, DS in Root, 0, 0, 0, 0, 0, None
+TATTOO, DS in Root, 0, 0, 0, 0, 0, None
+COMMUNITY, DS in Root, 0, 0, 0, 0, 0, None
+DATING, DS in Root, 0, 0, 0, 0, 0, None
+XN--Q9JYB4C, DS in Root, 0, 0, 1, 0, 0, None
+MENU, DS in Root, 0, 0, 0, 0, 0, None
+UNO, DS in Root, 0, 0, 0, 0, 0, None
+RUHR, DS in Root, 0, 0, 0, 0, 0, None
+ACADEMY, DS in Root, 0, 0, 0, 0, 0, None
+CAB, DS in Root, 0, 0, 0, 0, 0, None
+CAMP, DS in Root, 0, 0, 0, 0, 0, None
+CAREERS, DS in Root, 0, 0, 0, 0, 0, None
+CENTER, DS in Root, 0, 0, 0, 0, 0, None
+COMPANY, DS in Root, 0, 0, 0, 0, 0, None
+COMPUTER, DS in Root, 0, 0, 0, 0, 0, None
+DOMAINS, DS in Root, 0, 0, 0, 0, 0, None
+LIMO, DS in Root, 0, 0, 0, 0, 0, None
+MANAGEMENT, DS in Root, 0, 0, 0, 0, 0, None
+PHOTOS, DS in Root, 0, 0, 0, 0, 0, None
+RECIPES, DS in Root, 0, 0, 0, 0, 0, None
+SHOES, DS in Root, 0, 0, 0, 0, 0, None
+SYSTEMS, DS in Root, 0, 0, 0, 0, 0, None
+VIAJES, DS in Root, 0, 0, 0, 0, 0, None
+XN--55QW42G, DS in Root, 0, 0, 1, 0, 0, None
+XN--ZFR164B, DS in Root, 0, 0, 1, 0, 0, None
+BUZZ, DS in Root, 0, 0, 0, 0, 0, None
+SUPPORT, DS in Root, 0, 0, 0, 0, 0, None
+NAGOYA, DS in Root, 0, 0, 0, 0, 0, None
+TOKYO, DS in Root, 0, 0, 0, 0, 0, None
+VOTING, DS in Root, 0, 0, 0, 0, 0, None
+BUILDERS, DS in Root, 0, 0, 0, 0, 0, None
+CODES, DS in Root, 0, 0, 0, 0, 0, None
+CEO, DS in Root, 0, 0, 0, 0, 0, None
+COFFEE, DS in Root, 0, 0, 0, 0, 0, None
+EDUCATION, DS in Root, 0, 0, 0, 0, 0, None
+FARM, DS in Root, 0, 0, 0, 0, 0, None
+FLORIST, DS in Root, 0, 0, 0, 0, 0, None
+GLASS, DS in Root, 0, 0, 0, 0, 0, None
+HOLIDAY, DS in Root, 0, 0, 0, 0, 0, None
+HOUSE, DS in Root, 0, 0, 0, 0, 0, None
+INSTITUTE, DS in Root, 0, 0, 0, 0, 0, None
+INTERNATIONAL, DS in Root, 0, 0, 0, 0, 0, None
+KAUFEN, DS in Root, 0, 0, 0, 0, 0, None
+NINJA, DS in Root, 0, 0, 0, 0, 0, None
+ONL, DS in Root, 0, 0, 0, 0, 0, None
+REPAIR, DS in Root, 0, 0, 0, 0, 0, None
+SOLAR, DS in Root, 0, 0, 0, 0, 0, None
+SOLUTIONS, DS in Root, 0, 0, 0, 0, 0, None
+TRAINING, DS in Root, 0, 0, 0, 0, 0, None
+EMAIL, DS in Root, 0, 0, 0, 0, 0, None
+IMMOBILIEN, DS in Root, 0, 0, 0, 0, 0, None
+XN--3DS443G, DS in Root, 0, 0, 1, 0, 0, None
+WIEN, DS in Root, 0, 0, 0, 0, 0, None
+KIWI, DS in Root, 0, 0, 0, 0, 0, None
+WANG, DS in Root, 0, 0, 0, 0, 0, None
+XN--3BST00M, DS in Root, 0, 0, 1, 0, 0, None
+XN--FIQ228C5HS, DS in Root, 0, 0, 1, 0, 0, None
+BERLIN, DS in Root, 0, 0, 0, 0, 0, None
+XN--6QQ986B3XL, DS in Root, 0, 0, 1, 0, 0, None
+AGENCY, DS in Root, 0, 0, 0, 0, 0, None
+CHEAP, DS in Root, 0, 0, 0, 0, 0, None
+MARKETING, DS in Root, 0, 0, 0, 0, 0, None
+ZONE, DS in Root, 0, 0, 0, 0, 0, None
+DANCE, DS in Root, 0, 0, 0, 0, 0, None
+DEMOCRAT, DS in Root, 0, 0, 0, 0, 0, None
+MODA, DS in Root, 0, 0, 0, 0, 0, None
+SOCIAL, DS in Root, 0, 0, 0, 0, 0, None
+CATERING, DS in Root, 0, 0, 0, 0, 0, None
+CLEANING, DS in Root, 0, 0, 0, 0, 0, None
+CRUISES, DS in Root, 0, 0, 0, 0, 0, None
+EVENTS, DS in Root, 0, 0, 0, 0, 0, None
+EXPOSED, DS in Root, 0, 0, 0, 0, 0, None
+FLIGHTS, DS in Root, 0, 0, 0, 0, 0, None
+PARTNERS, DS in Root, 0, 0, 0, 0, 0, None
+PROPERTIES, DS in Root, 0, 0, 0, 0, 0, None
+RENTALS, DS in Root, 0, 0, 0, 0, 0, None
+REPORT, DS in Root, 0, 0, 0, 0, 0, None
+BLUE, Operational, 0, 0, 0, 0, 0, None
+XN--6FRZ82G, DS in Root, 0, 0, 1, 0, 0, None
+BUILD, DS in Root, 0, 0, 0, 0, 0, None
+CLUB, DS in Root, 0, 0, 0, 0, 0, None
+GIFT, DS in Root, 0, 0, 0, 0, 0, None
+GUITARS, DS in Root, 0, 0, 0, 0, 0, None
+PHOTO, DS in Root, 0, 0, 0, 0, 0, None
+LINK, DS in Root, 0, 0, 0, 0, 0, None
+PICS, DS in Root, 0, 0, 0, 0, 0, None
+LUXURY, DS in Root, 0, 0, 0, 0, 0, None
+MONASH, DS in Root, 0, 0, 0, 0, 0, None
+PINK, DS in Root, 0, 0, 0, 0, 0, None
+RED, DS in Root, 0, 0, 0, 0, 0, None
+SHIKSHA, DS in Root, 0, 0, 0, 0, 0, None
+RICH, DS in Root, 0, 0, 0, 0, 0, None
+XN--55QX5D, DS in Root, 0, 0, 1, 0, 0, None
+XN--IO0A7I, DS in Root, 0, 0, 1, 0, 0, None
+XN--FIQ64B, DS in Root, 0, 0, 1, 0, 0, None
+BARGAINS, DS in Root, 0, 0, 0, 0, 0, None
+BOUTIQUE, DS in Root, 0, 0, 0, 0, 0, None
+COOL, DS in Root, 0, 0, 0, 0, 0, None
+EXPERT, DS in Root, 0, 0, 0, 0, 0, None
+TIENDA, DS in Root, 0, 0, 0, 0, 0, None
+TOOLS, DS in Root, 0, 0, 0, 0, 0, None
+WATCH, DS in Root, 0, 0, 0, 0, 0, None
+WORKS, DS in Root, 0, 0, 0, 0, 0, None
+KIM, DS in Root, 0, 0, 0, 0, 0, None
+WED, DS in Root, 0, 0, 0, 0, 0, None
+CARDS, DS in Root, 0, 0, 0, 0, 0, None
+CONDOS, DS in Root, 0, 0, 0, 0, 0, None
+FOUNDATION, DS in Root, 0, 0, 0, 0, 0, None
+MAISON, DS in Root, 0, 0, 0, 0, 0, None
+PARTS, DS in Root, 0, 0, 0, 0, 0, None
+PRODUCTIONS, DS in Root, 0, 0, 0, 0, 0, None
+VILLAS, DS in Root, 0, 0, 0, 0, 0, None
+VISION, DS in Root, 0, 0, 0, 0, 0, None
+FUTBOL, DS in Root, 0, 0, 0, 0, 0, None
+REVIEWS, DS in Root, 0, 0, 0, 0, 0, None
+QPON, DS in Root, 0, 0, 0, 0, 0, None
+MANGO, DS in Root, 0, 0, 0, 0, 0, None
+XN--MGBAB2BD, DS in Root, 0, 0, 1, 0, 0, None
+NEUSTAR, DS in Root, 0, 0, 0, 0, 0, None
+WIKI, DS in Root, 0, 0, 0, 0, 0, None
+XYZ, DS in Root, 0, 0, 0, 0, 0, None
+FISH, DS in Root, 0, 0, 0, 0, 0, None
+INDUSTRIES, DS in Root, 0, 0, 0, 0, 0, None
+SUPPLY, DS in Root, 0, 0, 0, 0, 0, None
+VACATIONS, DS in Root, 0, 0, 0, 0, 0, None
+XN--CG4BKI, DS in Root, 0, 0, 1, 0, 0, None
+SUPPLIES, DS in Root, 0, 0, 0, 0, 0, None
+ACTOR, DS in Root, 0, 0, 0, 0, 0, None
+PUB, DS in Root, 0, 0, 0, 0, 0, None
+CHRISTMAS, DS in Root, 0, 0, 0, 0, 0, None
+XN--D1ACJ3B, DS in Root, 0, 0, 1, 0, 0, None
+BAR, DS in Root, 0, 0, 0, 0, 0, None
+BEST, DS in Root, 0, 0, 0, 0, 0, None
+KRED, DS in Root, 0, 0, 0, 0, 0, None
+BID, DS in Root, 0, 0, 0, 0, 0, None
+OKINAWA, DS in Root, 0, 0, 0, 0, 0, None
+VOTE, DS in Root, 0, 0, 0, 0, 0, None
+VOTO, DS in Root, 0, 0, 0, 0, 0, None
+KOELN, DS in Root, 0, 0, 0, 0, 0, None
+XN--C1AVG, DS in Root, 0, 0, 1, 0, 0, None
+XN--I1B6B1A6A2E, DS in Root, 0, 0, 1, 0, 0, None
+XN--NQV7F, DS in Root, 0, 0, 1, 0, 0, None
+XN--NQV7FS00EMA, DS in Root, 0, 0, 1, 0, 0, None
+DNP, DS in Root, 0, 0, 0, 0, 0, None
+INK, DS in Root, 0, 0, 0, 0, 0, None
+XN--RHQV96G, DS in Root, 0, 0, 1, 0, 0, None
+JETZT, DS in Root, 0, 0, 0, 0, 0, None
+AXA, DS in Root, 0, 0, 0, 0, 0, None
+COLOGNE, DS in Root, 0, 0, 0, 0, 0, None
+TRADE, DS in Root, 0, 0, 0, 0, 0, None
+WEBCAM, DS in Root, 0, 0, 0, 0, 0, None
+NYC, DS in Root, 0, 0, 0, 0, 0, None
+LONDON, DS in Root, 0, 0, 0, 0, 0, None
+SOHU, DS in Root, 0, 0, 0, 0, 0, None
+BLACK, DS in Root, 0, 0, 0, 0, 0, None
+MEET, DS in Root, 0, 0, 0, 0, 0, None
+REN, DS in Root, 0, 0, 0, 0, 0, None
+ARCHI, DS in Root, 0, 0, 0, 0, 0, None
+COOKING, DS in Root, 0, 0, 0, 0, 0, None
+COUNTRY, DS in Root, 0, 0, 0, 0, 0, None
+FISHING, DS in Root, 0, 0, 0, 0, 0, None
+HORSE, DS in Root, 0, 0, 0, 0, 0, None
+MIAMI, DS in Root, 0, 0, 0, 0, 0, None
+RODEO, DS in Root, 0, 0, 0, 0, 0, None
+VODKA, DS in Root, 0, 0, 0, 0, 0, None
+HAUS, DS in Root, 0, 0, 0, 0, 0, None
+MOE, DS in Root, 0, 0, 0, 0, 0, None
+VEGAS, DS in Root, 0, 0, 0, 0, 0, None
+CONSULTING, DS in Root, 0, 0, 0, 0, 0, None
+REST, DS in Root, 0, 0, 0, 0, 0, None
+SAARLAND, DS in Root, 0, 0, 0, 0, 0, None
+RYUKYU, DS in Root, 0, 0, 0, 0, 0, None
+YOKOHAMA, DS in Root, 0, 0, 0, 0, 0, None
+GOP, DS in Root, 0, 0, 0, 0, 0, None
+XN--CZRU2D, DS in Root, 0, 0, 1, 0, 0, None
+COLLEGE, DS in Root, 0, 0, 0, 0, 0, None
+DESI, DS in Root, 0, 0, 0, 0, 0, None
+FEEDBACK, DS in Root, 0, 0, 0, 0, 0, None
+ROCKS, DS in Root, 0, 0, 0, 0, 0, None
+XN--SES554G, DS in Root, 0, 0, 1, 0, 0, None
+ASSOCIATES, DS in Root, 0, 0, 0, 0, 0, None
+CAPITAL, DS in Root, 0, 0, 0, 0, 0, None
+ENGINEERING, DS in Root, 0, 0, 0, 0, 0, None
+GRIPE, DS in Root, 0, 0, 0, 0, 0, None
+LEASE, DS in Root, 0, 0, 0, 0, 0, None
+MEDIA, DS in Root, 0, 0, 0, 0, 0, None
+PICTURES, DS in Root, 0, 0, 0, 0, 0, None
+REISEN, DS in Root, 0, 0, 0, 0, 0, None
+SERVICES, DS in Root, 0, 0, 0, 0, 0, None
+TOWN, DS in Root, 0, 0, 0, 0, 0, None
+TOYS, DS in Root, 0, 0, 0, 0, 0, None
+UNIVERSITY, DS in Root, 0, 0, 0, 0, 0, None
+CAREER, DS in Root, 0, 0, 0, 0, 0, None
+EUS, DS in Root, 0, 0, 0, 0, 0, None
+GAL, DS in Root, 0, 0, 0, 0, 0, None
+QUEBEC, DS in Root, 0, 0, 0, 0, 0, None
+FOO, DS in Root, 0, 0, 0, 0, 0, None
+SOY, DS in Root, 0, 0, 0, 0, 0, None
+FROGANS, DS in Root, 0, 0, 0, 0, 0, None
+PARIS, DS in Root, 0, 0, 0, 0, 0, None
+BLACKFRIDAY, DS in Root, 0, 0, 0, 0, 0, None
+CLINIC, DS in Root, 0, 0, 0, 0, 0, None
+FITNESS, DS in Root, 0, 0, 0, 0, 0, None
+SCHULE, DS in Root, 0, 0, 0, 0, 0, None
+CARE, DS in Root, 0, 0, 0, 0, 0, None
+CASH, DS in Root, 0, 0, 0, 0, 0, None
+DENTAL, DS in Root, 0, 0, 0, 0, 0, None
+DISCOUNT, DS in Root, 0, 0, 0, 0, 0, None
+EXCHANGE, DS in Root, 0, 0, 0, 0, 0, None
+FAIL, DS in Root, 0, 0, 0, 0, 0, None
+FINANCIAL, DS in Root, 0, 0, 0, 0, 0, None
+FUND, DS in Root, 0, 0, 0, 0, 0, None
+FURNITURE, DS in Root, 0, 0, 0, 0, 0, None
+GRATIS, DS in Root, 0, 0, 0, 0, 0, None
+INVESTMENTS, DS in Root, 0, 0, 0, 0, 0, None
+LIMITED, DS in Root, 0, 0, 0, 0, 0, None
+SURGERY, DS in Root, 0, 0, 0, 0, 0, None
+TAX, DS in Root, 0, 0, 0, 0, 0, None
+WTF, DS in Root, 0, 0, 0, 0, 0, None
+MOSCOW, DS in Root, 0, 0, 0, 0, 0, None
+XN--80ADXHKS, DS in Root, 0, 0, 1, 0, 0, None
+CITIC, DS in Root, 0, 0, 0, 0, 0, None
+CREDITCARD, DS in Root, 0, 0, 0, 0, 0, None
+FINANCE, DS in Root, 0, 0, 0, 0, 0, None
+INSURE, DS in Root, 0, 0, 0, 0, 0, None
+WTC, DS in Root, 0, 0, 0, 0, 0, None
+AIRFORCE, DS in Root, 0, 0, 0, 0, 0, None
+BAYERN, DS in Root, 0, 0, 0, 0, 0, None
+GLOBO, DS in Root, 0, 0, 0, 0, 0, None
+GMO, DS in Root, 0, 0, 0, 0, 0, None
+ACCOUNTANTS, DS in Root, 0, 0, 0, 0, 0, None
+CLAIMS, DS in Root, 0, 0, 0, 0, 0, None
+CREDIT, DS in Root, 0, 0, 0, 0, 0, None
+DIGITAL, DS in Root, 0, 0, 0, 0, 0, None
+AUDIO, DS in Root, 0, 0, 0, 0, 0, None
+BEER, DS in Root, 0, 0, 0, 0, 0, None
+CHURCH, DS in Root, 0, 0, 0, 0, 0, None
+GUIDE, DS in Root, 0, 0, 0, 0, 0, None
+LIFE, DS in Root, 0, 0, 0, 0, 0, None
+LOANS, DS in Root, 0, 0, 0, 0, 0, None
+HIPHOP, DS in Root, 0, 0, 0, 0, 0, None
+JUEGOS, DS in Root, 0, 0, 0, 0, 0, None
+LUXE, DS in Root, 0, 0, 0, 0, 0, None
+AUTOS, DS in Root, 0, 0, 0, 0, 0, None
+HOMES, DS in Root, 0, 0, 0, 0, 0, None
+MOTORCYCLES, DS in Root, 0, 0, 0, 0, 0, None
+YACHTS, DS in Root, 0, 0, 0, 0, 0, None
+REISE, DS in Root, 0, 0, 0, 0, 0, None
+RIO, DS in Root, 0, 0, 0, 0, 0, None
+VERSICHERUNG, DS in Root, 0, 0, 0, 0, 0, None
+XN--CZR694B, DS in Root, 0, 0, 1, 0, 0, None
+XN--4GBRIM, DS in Root, 0, 0, 1, 0, 0, None
+DEGREE, DS in Root, 0, 0, 0, 0, 0, None
+SPACE, DS in Root, 0, 0, 0, 0, 0, None
+WEBSITE, DS in Root, 0, 0, 0, 0, 0, None
+ATTORNEY, DS in Root, 0, 0, 0, 0, 0, None
+DENTIST, DS in Root, 0, 0, 0, 0, 0, None
+HOST, DS in Root, 0, 0, 0, 0, 0, None
+LAWYER, DS in Root, 0, 0, 0, 0, 0, None
+MARKET, DS in Root, 0, 0, 0, 0, 0, None
+PRESS, DS in Root, 0, 0, 0, 0, 0, None
+SOFTWARE, DS in Root, 0, 0, 0, 0, 0, None
+VET, DS in Root, 0, 0, 0, 0, 0, None
+MORTGAGE, DS in Root, 0, 0, 0, 0, 0, None
+HIV, DS in Root, 0, 0, 0, 0, 0, None
+ARMY, DS in Root, 0, 0, 0, 0, 0, None
+ENGINEER, DS in Root, 0, 0, 0, 0, 0, None
+GIVES, DS in Root, 0, 0, 0, 0, 0, None
+NAVY, DS in Root, 0, 0, 0, 0, 0, None
+REHAB, DS in Root, 0, 0, 0, 0, 0, None
+REPUBLICAN, DS in Root, 0, 0, 0, 0, 0, None
+HAMBURG, DS in Root, 0, 0, 0, 0, 0, None
+NHK, DS in Root, 0, 0, 0, 0, 0, None
+TIROL, DS in Root, 0, 0, 0, 0, 0, None
+GLOBAL, DS in Root, 0, 0, 0, 0, 0, None
+ORGANIC, DS in Root, 0, 0, 0, 0, 0, None
+SCOT, DS in Root, 0, 0, 0, 0, 0, None
+BZH, DS in Root, 0, 0, 0, 0, 0, None
+XN--KPUT3I, DS in Root, 0, 0, 1, 0, 0, None
+BRUSSELS, DS in Root, 0, 0, 0, 0, 0, None
+SURF, DS in Root, 0, 0, 0, 0, 0, None
+VLAANDEREN, DS in Root, 0, 0, 0, 0, 0, None
+CAPETOWN, DS in Root, 0, 0, 0, 0, 0, None
+DURBAN, DS in Root, 0, 0, 0, 0, 0, None
+JOBURG, DS in Root, 0, 0, 0, 0, 0, None
+GREEN, DS in Root, 0, 0, 0, 0, 0, None
+LOTTO, DS in Root, 0, 0, 0, 0, 0, None
+OVH, DS in Root, 0, 0, 0, 0, 0, None
+PHYSIO, DS in Root, 0, 0, 0, 0, 0, None
+BMW, DS in Root, 0, 0, 0, 0, 0, None
+MINI, DS in Root, 0, 0, 0, 0, 0, None
+ACTIVE, DS in Root, 0, 0, 0, 0, 0, None
+DIRECT, DS in Root, 0, 0, 0, 0, 0, None
+PLACE, DS in Root, 0, 0, 0, 0, 0, None
+SUZUKI, DS in Root, 0, 0, 0, 0, 0, None
+CANCERRESEARCH, DS in Root, 0, 0, 0, 0, 0, None
+CUISINELLA, DS in Root, 0, 0, 0, 0, 0, None
+SCHMIDT, DS in Root, 0, 0, 0, 0, 0, None
+CITY, DS in Root, 0, 0, 0, 0, 0, None
+DEALS, DS in Root, 0, 0, 0, 0, 0, None
+MELBOURNE, DS in Root, 0, 0, 0, 0, 0, None
+BIO, DS in Root, 0, 0, 0, 0, 0, None
+NRW, DS in Root, 0, 0, 0, 0, 0, None
+SCB, DS in Root, 0, 0, 0, 0, 0, None
+AUCTION, DS in Root, 0, 0, 0, 0, 0, None
+KRD, DS in Root, 0, 0, 0, 0, 0, None
+LACAIXA, DS in Root, 0, 0, 0, 0, 0, None
+LGBT, DS in Root, 0, 0, 0, 0, 0, None
+NGO, DS in Root, 0, 0, 0, 0, 0, None
+NRA, DS in Root, 0, 0, 0, 0, 0, None
+SPIEGEL, DS in Root, 0, 0, 0, 0, 0, None
+WHOSWHO, DS in Root, 0, 0, 0, 0, 0, None
+YANDEX, DS in Root, 0, 0, 0, 0, 0, None
+PRAXI, DS in Root, 0, 0, 0, 0, 0, None
+WILLIAMHILL, DS in Root, 0, 0, 0, 0, 0, None
+ONG, DS in Root, 0, 0, 0, 0, 0, None
+HEALTHCARE, DS in Root, 0, 0, 0, 0, 0, None
+REALTOR, DS in Root, 0, 0, 0, 0, 0, None
+TOP, DS in Root, 0, 0, 0, 0, 0, None
+TATAR, DS in Root, 0, 0, 0, 0, 0, None
+WALES, DS in Root, 0, 0, 0, 0, 0, None
+CYMRU, DS in Root, 0, 0, 0, 0, 0, None
+GIFTS, DS in Root, 0, 0, 0, 0, 0, None
+RESTAURANT, DS in Root, 0, 0, 0, 0, 0, None
+SARL, DS in Root, 0, 0, 0, 0, 0, None
+BNPPARIBAS, DS in Root, 0, 0, 0, 0, 0, None
+SCA, DS in Root, 0, 0, 0, 0, 0, None
+XN--1QQW23A, DS in Root, 0, 0, 1, 0, 0, None
+XN--XHQ521B, DS in Root, 0, 0, 1, 0, 0, None
+CARAVAN, DS in Root, 0, 0, 0, 0, 0, None
+CERN, DS in Root, 0, 0, 0, 0, 0, None
+CLICK, DS in Root, 0, 0, 0, 0, 0, None
+DIET, DS in Root, 0, 0, 0, 0, 0, None
+HELP, DS in Root, 0, 0, 0, 0, 0, None
+HOSTING, DS in Root, 0, 0, 0, 0, 0, None
+PROPERTY, DS in Root, 0, 0, 0, 0, 0, None
+HOW, DS in Root, 0, 0, 0, 0, 0, None
+LTDA, DS in Root, 0, 0, 0, 0, 0, None
+OOO, DS in Root, 0, 0, 0, 0, 0, None
+UOL, DS in Root, 0, 0, 0, 0, 0, None
+BUSINESS, DS in Root, 0, 0, 0, 0, 0, None
+NETWORK, DS in Root, 0, 0, 0, 0, 0, None
+XN--VHQUV, DS in Root, 0, 0, 1, 0, 0, None
+GBIZ, DS in Root, 0, 0, 0, 0, 0, None
+GMAIL, DS in Root, 0, 0, 0, 0, 0, None
+IMMO, DS in Root, 0, 0, 0, 0, 0, None
+PIZZA, DS in Root, 0, 0, 0, 0, 0, None
+OTSUKA, DS in Root, 0, 0, 0, 0, 0, None
+ESQ, DS in Root, 0, 0, 0, 0, 0, None
+HERE, DS in Root, 0, 0, 0, 0, 0, None
+PROD, DS in Root, 0, 0, 0, 0, 0, None
+YOUTUBE, DS in Root, 0, 0, 0, 0, 0, None
+BOO, DS in Root, 0, 0, 0, 0, 0, None
+DAD, DS in Root, 0, 0, 0, 0, 0, None
+DAY, DS in Root, 0, 0, 0, 0, 0, None
+EAT, DS in Root, 0, 0, 0, 0, 0, None
+ING, DS in Root, 0, 0, 0, 0, 0, None
+MEME, DS in Root, 0, 0, 0, 0, 0, None
+MOV, DS in Root, 0, 0, 0, 0, 0, None
+NEW, DS in Root, 0, 0, 0, 0, 0, None
+RSVP, DS in Root, 0, 0, 0, 0, 0, None
+FRL, DS in Root, 0, 0, 0, 0, 0, None
+GMX, DS in Root, 0, 0, 0, 0, 0, None
+PHARMACY, DS in Root, 0, 0, 0, 0, 0, None
+WME, DS in Root, 0, 0, 0, 0, 0, None
+CAL, DS in Root, 0, 0, 0, 0, 0, None
+CHANNEL, DS in Root, 0, 0, 0, 0, 0, None
+CHROME, DS in Root, 0, 0, 0, 0, 0, None
+FLY, DS in Root, 0, 0, 0, 0, 0, None
+GLE, DS in Root, 0, 0, 0, 0, 0, None
+GOOGLE, DS in Root, 0, 0, 0, 0, 0, None
+NEXUS, DS in Root, 0, 0, 0, 0, 0, None
+PROF, DS in Root, 0, 0, 0, 0, 0, None
+ZIP, DS in Root, 0, 0, 0, 0, 0, None
+WORLD, DS in Root, 0, 0, 0, 0, 0, None
+BUDAPEST, DS in Root, 0, 0, 0, 0, 0, None
+CASA, DS in Root, 0, 0, 0, 0, 0, None
+WORK, DS in Root, 0, 0, 0, 0, 0, None
+DVAG, DS in Root, 0, 0, 0, 0, 0, None
+POHL, DS in Root, 0, 0, 0, 0, 0, None
+XN--VERMGENSBERATER-CTB, DS in Root, 0, 0, 1, 0, 0, None
+XN--VERMGENSBERATUNG-PWB, DS in Root, 0, 0, 1, 0, 0, None
+TUI, DS in Root, 0, 0, 0, 0, 0, None
+ALLFINANZ, DS in Root, 0, 0, 0, 0, 0, None
+FORSALE, DS in Root, 0, 0, 0, 0, 0, None
+IBM, DS in Root, 0, 0, 0, 0, 0, None
+ALSACE, DS in Root, 0, 0, 0, 0, 0, None
+GENT, DS in Root, 0, 0, 0, 0, 0, None
+XN--P1ACF, DS in Root, 0, 0, 1, 0, 0, None
+ABOGADO, DS in Root, 0, 0, 0, 0, 0, None
+WEDDING, DS in Root, 0, 0, 0, 0, 0, None
+YOGA, DS in Root, 0, 0, 0, 0, 0, None
+BAND, DS in Root, 0, 0, 0, 0, 0, None
+RIP, DS in Root, 0, 0, 0, 0, 0, None
+CRS, DS in Root, 0, 0, 0, 0, 0, None
+FLSMIDTH, DS in Root, 0, 0, 0, 0, 0, None
+POKER, DS in Root, 0, 0, 0, 0, 0, None
+EMERCK, DS in Root, 0, 0, 0, 0, 0, None
+TAIPEI, DS in Root, 0, 0, 0, 0, 0, None
+ENERGY, DS in Root, 0, 0, 0, 0, 0, None
+DELIVERY, DS in Root, 0, 0, 0, 0, 0, None
+BLOOMBERG, DS in Root, 0, 0, 0, 0, 0, None
+SYDNEY, DS in Root, 0, 0, 0, 0, 0, None
+ANDROID, DS in Root, 0, 0, 0, 0, 0, None
+REIT, DS in Root, 0, 0, 0, 0, 0, None
+SCIENCE, DS in Root, 0, 0, 0, 0, 0, None
+CRICKET, DS in Root, 0, 0, 0, 0, 0, None
+PARTY, DS in Root, 0, 0, 0, 0, 0, None
+LDS, DS in Root, 0, 0, 0, 0, 0, None
+MORMON, DS in Root, 0, 0, 0, 0, 0, None
+FIRMDALE, DS in Root, 0, 0, 0, 0, 0, None
+MADRID, DS in Root, 0, 0, 0, 0, 0, None
+XN--FLW351E, DS in Root, 0, 0, 1, 0, 0, None
+XN--QCKA1PMC, DS in Root, 0, 0, 1, 0, 0, None
+COACH, DS in Root, 0, 0, 0, 0, 0, None
+LEGAL, DS in Root, 0, 0, 0, 0, 0, None
+MEMORIAL, DS in Root, 0, 0, 0, 0, 0, None
+MONEY, DS in Root, 0, 0, 0, 0, 0, None
+XN--45Q11C, DS in Root, 0, 0, 1, 0, 0, None
+EVERBANK, DS in Root, 0, 0, 0, 0, 0, None
+AQUARELLE, DS in Root, 0, 0, 0, 0, 0, None
+IRISH, DS in Root, 0, 0, 0, 0, 0, None
+LATROBE, DS in Root, 0, 0, 0, 0, 0, None
+XN--HXT814E, DS in Root, 0, 0, 1, 0, 0, None
+ADULT, DS in Root, 0, 0, 0, 0, 0, None
+PORN, DS in Root, 0, 0, 0, 0, 0, None
+EUROVISION, DS in Root, 0, 0, 0, 0, 0, None
+FASHION, DS in Root, 0, 0, 0, 0, 0, None
+TRUST, DS in Root, 0, 0, 0, 0, 0, None
+SAMSUNG, DS in Root, 0, 0, 0, 0, 0, None
+CARTIER, DS in Root, 0, 0, 0, 0, 0, None
+XN--CZRS0T, DS in Root, 0, 0, 1, 0, 0, None
+SKY, DS in Root, 0, 0, 0, 0, 0, None
+DOOSAN, DS in Root, 0, 0, 0, 0, 0, None
+GARDEN, DS in Root, 0, 0, 0, 0, 0, None
+IWC, DS in Root, 0, 0, 0, 0, 0, None
+LIDL, DS in Root, 0, 0, 0, 0, 0, None
+SCHWARZ, DS in Root, 0, 0, 0, 0, 0, None
+OSAKA, DS in Root, 0, 0, 0, 0, 0, None
+SEW, DS in Root, 0, 0, 0, 0, 0, None
+DEV, DS in Root, 0, 0, 0, 0, 0, None
+DOCS, DS in Root, 0, 0, 0, 0, 0, None
+TIRES, DS in Root, 0, 0, 0, 0, 0, None
+AMSTERDAM, DS in Root, 0, 0, 0, 0, 0, None
+FLOWERS, DS in Root, 0, 0, 0, 0, 0, None
+GGEE, DS in Root, 0, 0, 0, 0, 0, None
+SALE, DS in Root, 0, 0, 0, 0, 0, None
+VIDEO, DS in Root, 0, 0, 0, 0, 0, None
+ZUERICH, DS in Root, 0, 0, 0, 0, 0, None
+SHRIRAM, DS in Root, 0, 0, 0, 0, 0, None
+BANK, DS in Root, 0, 0, 0, 0, 0, None
+FIT, DS in Root, 0, 0, 0, 0, 0, None
+KDDI, DS in Root, 0, 0, 0, 0, 0, None
+LAT, DS in Root, 0, 0, 0, 0, 0, None
+LOTTE, DS in Root, 0, 0, 0, 0, 0, None
+MARRIOTT, DS in Root, 0, 0, 0, 0, 0, None
+ONE, DS in Root, 0, 0, 0, 0, 0, None
+JCB, DS in Root, 0, 0, 0, 0, 0, None
+BARCLAYCARD, DS in Root, 0, 0, 0, 0, 0, None
+HERMES, DS in Root, 0, 0, 0, 0, 0, None
+DABUR, DS in Root, 0, 0, 0, 0, 0, None
+DESIGN, DS in Root, 0, 0, 0, 0, 0, None
+BARCLAYS, DS in Root, 0, 0, 0, 0, 0, None
+HANGOUT, DS in Root, 0, 0, 0, 0, 0, None
+GOOG, DS in Root, 0, 0, 0, 0, 0, None
+TEMASEK, DS in Root, 0, 0, 0, 0, 0, None
+IFM, DS in Root, 0, 0, 0, 0, 0, None
+XN--B4W605FERD, DS in Root, 0, 0, 1, 0, 0, None
+DCLK, DS in Root, 0, 0, 0, 0, 0, None
+KYOTO, DS in Root, 0, 0, 0, 0, 0, None
+NTT, DS in Root, 0, 0, 0, 0, 0, None
+CHAT, DS in Root, 0, 0, 0, 0, 0, None
+TOSHIBA, DS in Root, 0, 0, 0, 0, 0, None
+STYLE, DS in Root, 0, 0, 0, 0, 0, None
+CANON, DS in Root, 0, 0, 0, 0, 0, None
+BINGO, DS in Root, 0, 0, 0, 0, 0, None
+TENNIS, DS in Root, 0, 0, 0, 0, 0, None
+APARTMENTS, DS in Root, 0, 0, 0, 0, 0, None
+NICO, DS in Root, 0, 0, 0, 0, 0, None
+SAXO, DS in Root, 0, 0, 0, 0, 0, None
+CBN, DS in Root, 0, 0, 0, 0, 0, None
+GDN, DS in Root, 0, 0, 0, 0, 0, None
+CASINO, DS in Root, 0, 0, 0, 0, 0, None
+FOOTBALL, DS in Root, 0, 0, 0, 0, 0, None
+SCHOOL, DS in Root, 0, 0, 0, 0, 0, None
+FANS, DS in Root, 0, 0, 0, 0, 0, None
+GOLDPOINT, DS in Root, 0, 0, 0, 0, 0, None
+YODOBASHI, DS in Root, 0, 0, 0, 0, 0, None
+BOATS, DS in Root, 0, 0, 0, 0, 0, None
+COURSES, DS in Root, 0, 0, 0, 0, 0, None
+STUDY, DS in Root, 0, 0, 0, 0, 0, None
+SUCKS, DS in Root, 0, 0, 0, 0, 0, None
+EPSON, DS in Root, 0, 0, 0, 0, 0, None
+GOO, DS in Root, 0, 0, 0, 0, 0, None
+JAVA, DS in Root, 0, 0, 0, 0, 0, None
+MAIF, DS in Root, 0, 0, 0, 0, 0, None
+ORACLE, DS in Root, 0, 0, 0, 0, 0, None
+LECLERC, DS in Root, 0, 0, 0, 0, 0, None
+XN--MXTQ1M, DS in Root, 0, 0, 1, 0, 0, None
+DATSUN, DS in Root, 0, 0, 0, 0, 0, None
+INFINITI, DS in Root, 0, 0, 0, 0, 0, None
+MTPC, DS in Root, 0, 0, 0, 0, 0, None
+NISSAN, DS in Root, 0, 0, 0, 0, 0, None
+ABBOTT, DS in Root, 0, 0, 0, 0, 0, None
+PICTET, DS in Root, 0, 0, 0, 0, 0, None
+XIN, DS in Root, 0, 0, 0, 0, 0, None
+CHLOE, DS in Root, 0, 0, 0, 0, 0, None
+ERNI, DS in Root, 0, 0, 0, 0, 0, None
+FOREX, DS in Root, 0, 0, 0, 0, 0, None
+MARKETS, DS in Root, 0, 0, 0, 0, 0, None
+CFD, DS in Root, 0, 0, 0, 0, 0, None
+SPREADBETTING, DS in Root, 0, 0, 0, 0, 0, None
+TRADING, DS in Root, 0, 0, 0, 0, 0, None
+FAN, DS in Root, 0, 0, 0, 0, 0, None
+ONLINE, DS in Root, 0, 0, 0, 0, 0, None
+SITE, DS in Root, 0, 0, 0, 0, 0, None
+PAGE, DS in Root, 0, 0, 0, 0, 0, None
+PIAGET, DS in Root, 0, 0, 0, 0, 0, None
+XN--VUQ861B, DS in Root, 0, 0, 1, 0, 0, None
+BBC, DS in Root, 0, 0, 0, 0, 0, None
+TECH, DS in Root, 0, 0, 0, 0, 0, None
+ADS, DS in Root, 0, 0, 0, 0, 0, None
+GUGE, DS in Root, 0, 0, 0, 0, 0, None
+FILM, DS in Root, 0, 0, 0, 0, 0, None
+GOLD, DS in Root, 0, 0, 0, 0, 0, None
+GOLF, DS in Root, 0, 0, 0, 0, 0, None
+PLUS, DS in Root, 0, 0, 0, 0, 0, None
+TOURS, DS in Root, 0, 0, 0, 0, 0, None
+ACCOUNTANT, DS in Root, 0, 0, 0, 0, 0, None
+DATE, DS in Root, 0, 0, 0, 0, 0, None
+DOWNLOAD, DS in Root, 0, 0, 0, 0, 0, None
+FAITH, DS in Root, 0, 0, 0, 0, 0, None
+LOAN, DS in Root, 0, 0, 0, 0, 0, None
+REVIEW, DS in Root, 0, 0, 0, 0, 0, None
+WIN, DS in Root, 0, 0, 0, 0, 0, None
+DOHA, DS in Root, 0, 0, 0, 0, 0, None
+MOVIE, DS in Root, 0, 0, 0, 0, 0, None
+MTN, DS in Root, 0, 0, 0, 0, 0, None
+PANERAI, DS in Root, 0, 0, 0, 0, 0, None
+TICKETS, DS in Root, 0, 0, 0, 0, 0, None
+KOMATSU, DS in Root, 0, 0, 0, 0, 0, None
+SAP, DS in Root, 0, 0, 0, 0, 0, None
+BOND, DS in Root, 0, 0, 0, 0, 0, None
+XN--9ET52U, DS in Root, 0, 0, 1, 0, 0, None
+AFL, DS in Root, 0, 0, 0, 0, 0, None
+REDSTONE, DS in Root, 0, 0, 0, 0, 0, None
+XN--30RR7Y, DS in Root, 0, 0, 1, 0, 0, None
+LOVE, DS in Root, 0, 0, 0, 0, 0, None
+SCHOLARSHIPS, DS in Root, 0, 0, 0, 0, 0, None
+XN--NYQY26A, DS in Root, 0, 0, 1, 0, 0, None
+CYOU, DS in Root, 0, 0, 0, 0, 0, None
+RACING, DS in Root, 0, 0, 0, 0, 0, None
+BAUHAUS, DS in Root, 0, 0, 0, 0, 0, None
+CAFE, DS in Root, 0, 0, 0, 0, 0, None
+EXPRESS, DS in Root, 0, 0, 0, 0, 0, None
+XN--KCRX77D1X4A, DS in Root, 0, 0, 1, 0, 0, None
+JEWELRY, DS in Root, 0, 0, 0, 0, 0, None
+SHOW, DS in Root, 0, 0, 0, 0, 0, None
+TEAM, DS in Root, 0, 0, 0, 0, 0, None
+SONY, DS in Root, 0, 0, 0, 0, 0, None
+XEROX, DS in Root, 0, 0, 0, 0, 0, None
+WEIR, DS in Root, 0, 0, 0, 0, 0, None
+SEAT, DS in Root, 0, 0, 0, 0, 0, None
+SEX, DS in Root, 0, 0, 0, 0, 0, None
+ABB, DS in Root, 0, 0, 0, 0, 0, None
+BROKER, DS in Root, 0, 0, 0, 0, 0, None
+DOG, DS in Root, 0, 0, 0, 0, 0, None
+SWISS, DS in Root, 0, 0, 0, 0, 0, None
+HONDA, DS in Root, 0, 0, 0, 0, 0, None
+RENT, DS in Root, 0, 0, 0, 0, 0, None
+BRIDGESTONE, DS in Root, 0, 0, 0, 0, 0, None
+HITACHI, DS in Root, 0, 0, 0, 0, 0, None
+SENER, DS in Root, 0, 0, 0, 0, 0, None
+TORAY, DS in Root, 0, 0, 0, 0, 0, None
+AIG, DS in Root, 0, 0, 0, 0, 0, None
+CARS, DS in Root, 0, 0, 0, 0, 0, None
+LOL, DS in Root, 0, 0, 0, 0, 0, None
+CFA, DS in Root, 0, 0, 0, 0, 0, None
+NADEX, DS in Root, 0, 0, 0, 0, 0, None
+LIAISON, DS in Root, 0, 0, 0, 0, 0, None
+ICU, DS in Root, 0, 0, 0, 0, 0, None
+THEATER, DS in Root, 0, 0, 0, 0, 0, None
+HOCKEY, DS in Root, 0, 0, 0, 0, 0, None
+RUN, DS in Root, 0, 0, 0, 0, 0, None
+TAXI, DS in Root, 0, 0, 0, 0, 0, None
+XN--ESTV75G, DS in Root, 0, 0, 1, 0, 0, None
+XN--Y9A3AQ, DS in Root, 0, 0, 1, 0, 0, None
+ACCENTURE, DS in Root, 0, 0, 0, 0, 0, None
+NEC, DS in Root, 0, 0, 0, 0, 0, None
+PHILIPS, DS in Root, 0, 0, 0, 0, 0, None
+XN--FJQ720A, DS in Root, 0, 0, 1, 0, 0, None
+BROTHER, DS in Root, 0, 0, 0, 0, 0, None
+COUPONS, DS in Root, 0, 0, 0, 0, 0, None
+SOCCER, DS in Root, 0, 0, 0, 0, 0, None
+ICBC, DS in Root, 0, 0, 0, 0, 0, None
+EARTH, DS in Root, 0, 0, 0, 0, 0, None
+CISCO, DS in Root, 0, 0, 0, 0, 0, None
+CORSICA, DS in Root, 0, 0, 0, 0, 0, None
+LUPIN, DS in Root, 0, 0, 0, 0, 0, None
+MEN, DS in Root, 0, 0, 0, 0, 0, None
+FYI, DS in Root, 0, 0, 0, 0, 0, None
+MBA, DS in Root, 0, 0, 0, 0, 0, None
+JLL, DS in Root, 0, 0, 0, 0, 0, None
+THD, DS in Root, 0, 0, 0, 0, 0, None
+BBVA, DS in Root, 0, 0, 0, 0, 0, None
+SANDVIK, DS in Root, 0, 0, 0, 0, 0, None
+SANDVIKCOROMANT, DS in Root, 0, 0, 0, 0, 0, None
+WALTER, DS in Root, 0, 0, 0, 0, 0, None
+SKI, DS in Root, 0, 0, 0, 0, 0, None
+XN--IMR513N, DS in Root, 0, 0, 1, 0, 0, None
+BIBLE, DS in Root, 0, 0, 0, 0, 0, None
+SNCF, DS in Root, 0, 0, 0, 0, 0, None
+HOMEDEPOT, DS in Root, 0, 0, 0, 0, 0, None
+XBOX, DS in Root, 0, 0, 0, 0, 0, None
+MONTBLANC, DS in Root, 0, 0, 0, 0, 0, None
+JLC, DS in Root, 0, 0, 0, 0, 0, None
+AZURE, DS in Root, 0, 0, 0, 0, 0, None
+BING, DS in Root, 0, 0, 0, 0, 0, None
+HOTMAIL, DS in Root, 0, 0, 0, 0, 0, None
+MICROSOFT, DS in Root, 0, 0, 0, 0, 0, None
+WINDOWS, DS in Root, 0, 0, 0, 0, 0, None
+BHARTI, DS in Root, 0, 0, 0, 0, 0, None
+LASALLE, DS in Root, 0, 0, 0, 0, 0, None
