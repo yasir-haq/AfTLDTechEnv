@@ -32,32 +32,32 @@ Data are available in folder `datasets`. The structure will be similar to the on
 $ tree datasets/
 ./datasets/
 └── raw
-    ├── 20201024
-    │   ├── anycast_dataset
-    │   ├── deploy360_dnssec
-    │   ├── dnssec_algo
-    │   ├── nro_delegated
-    │   ├── prefixes_asn
-    │   ├── results
-    │   │   ├── top_cctld_cctld_ns.csv
-    │   │   ├── top_cctld_cctld_zonemaster_data.csv
-    │   │   └── top_cctld_cctld_zonemaster_result.csv
-    │   └── zonemaster_result
-    │       ├── zonemaster_BR.json
-    │       ├── zonemaster_CN.json
-    │       ├── zonemaster_DE.json
-    │       ├── zonemaster_EU.json
-    │       ├── zonemaster_FR.json
-    │       ├── zonemaster_IT.json
-    │       ├── zonemaster_NL.json
-    │       ├── zonemaster_RU.json
-    │       ├── zonemaster_TK.json
-    │       └── zonemaster_UK.json
-    ├── afri_cctld_ns.csv
-    ├── afri_cctld_zonemaster_data.csv
-    ├── afri_cctld_zonemaster_result.csv
-    └── deploy360_dnssec_last20200713.csv
-
+│   ├── 20201024
+│   │   ├── anycast_dataset
+│   │   ├── deploy360_dnssec
+│   │   ├── dnssec_algo
+│   │   ├── nro_delegated
+│   │   ├── prefixes_asn
+│   │   ├── results
+│   │   │   ├── top_cctld_cctld_ns.csv
+│   │   │   ├── top_cctld_cctld_zonemaster_data.csv
+│   │   │   └── top_cctld_cctld_zonemaster_result.csv
+│   │   └── zonemaster_result
+│   │       ├── zonemaster_BR.json
+│   │       ├── zonemaster_CN.json
+│   │       ├── zonemaster_DE.json
+│   │       ├── zonemaster_EU.json
+│   │       ├── zonemaster_FR.json
+│   │       ├── zonemaster_IT.json
+│   │       ├── zonemaster_NL.json
+│   │       ├── zonemaster_RU.json
+│   │       ├── zonemaster_TK.json
+│   │       └── zonemaster_UK.json
+│   └── deploy360_dnssec_last20200713.csv
+├── afri_cctld_ns.csv
+├── afri_cctld_zonemaster_data.csv
+├── afri_cctld_zonemaster_result.csv
+└── top_cctld_cctld_ns.csv
 ```
 
 ## Jupyter notebook
