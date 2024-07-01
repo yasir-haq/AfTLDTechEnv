@@ -47,7 +47,7 @@ KNOWN_FORMATS = [
     '%d.%m.%Y %H:%M:%S',        # 08.03.2014 10:28:24
 ]
 
-ZONEMASTER_CLI = '/usr/local/bin/zonemaster-cli'
+ZONEMASTER_CLI = '/usr/bin/zonemaster-cli'
 ZONEMASTER_LEVELS = {
     0: 'CRITICAL', 
     1: 'ERROR', 
@@ -434,7 +434,7 @@ def get_zonemaster(tld, in_file):
     dataframe = []
     with open(in_file) as f:
         data = json.load(f)
-        for line in data:
+        for line in data['results']:
             frame_row = {}
         
             frame_row['cc'] = tld
@@ -535,6 +535,22 @@ def get_new_files(url, output_file):
         if now > (stat.st_mtime + INTERVAL_TIMESTAMP):
             with urllib.request.urlopen(url) as response, open(output_file, 'wb') as out_file:
                 shutil.copyfileobj(response, out_file)
+
+def get_new_files_new(url, output_file):
+    INTERVAL = 4
+    INTERVAL_TIMESTAMP = INTERVAL * 60 * 60
+    
+    cmd = "wget --max-redirect 100 -O"
+    myCmd = cmd + " " + output_file + " " + url
+    
+    now = time.time()
+    
+    if not os.path.isfile(output_file):
+        os.system(myCmd)
+    else:
+        stat = os.stat(output_file)
+        if now > (stat.st_mtime + INTERVAL_TIMESTAMP):
+            os.system(myCmd)
 
 def get_last_prefixas_filename(logfile):
     with open(logfile) as f:
@@ -642,6 +658,7 @@ NRO_DELEGATION_URL = 'https://www.nro.net/wp-content/uploads/apnic-uploads/deleg
 DNSSEC_ALGO_NUMBER_FILE = 'https://www.iana.org/assignments/dns-sec-alg-numbers/dns-sec-alg-numbers-1.csv'
 PASSIVE_ANYCAST_RESULT_FILE = 'https://raw.githubusercontent.com/bianrui0315/ccr_Anycast/master/data/Anycast_detection/results_prefix.txt'
 GREEDY_ANYCAST_RESULT_FILE = 'https://anycast.telecom-paristech.fr/list/2017-04'
+GREEDY_ANYCAST_RESULT_FILE = 'https://raw.githubusercontent.com/bgptools/anycast-prefixes/master/anycatch-v4-prefixes.txt'
 
 CAIDA_PREFIX4_2AS_LOG = 'http://data.caida.org/datasets/routing/routeviews-prefix2as/pfx2as-creation.log'
 CAIDA_PREFIX6_2AS_LOG = 'http://data.caida.org/datasets/routing/routeviews6-prefix2as/pfx2as-creation.log'
@@ -707,7 +724,7 @@ if __name__ == "__main__":
     
 
     if not os.path.exists(nro_alloactions_folder):
-            os.makedirs(nro_alloactions_folder)
+        os.makedirs(nro_alloactions_folder)
 
     if not os.path.exists(deploy360_dnssec_folder):
         os.makedirs(deploy360_dnssec_folder)
@@ -716,7 +733,7 @@ if __name__ == "__main__":
         os.makedirs(dnssec_algo_folder)
 
     if not os.path.exists(zonemaster_folder):
-            os.makedirs(zonemaster_folder)
+        os.makedirs(zonemaster_folder)
 
    
     if not os.path.exists(results_folder):
@@ -732,7 +749,7 @@ if __name__ == "__main__":
     get_new_files(DNSSEC_ALGO_NUMBER_FILE, dnssec_algo_file)
     
     print('Getting NRO Extended Allocation and Assignment Reports')
-    get_new_files(NRO_DELEGATION_URL, nro_alloactions_file)
+    get_new_files_new(NRO_DELEGATION_URL, nro_alloactions_file)
 
     print('Getting DNSSEC Deployment Maps')
     # Break link
@@ -912,17 +929,25 @@ if __name__ == "__main__":
         anycast_list = []
         anycast_list_4 = []
         anycast_list_6 = []
+
+        # exclude some ccTLDs with connection problems
+        excluded_cc = ['BJ', 'CI']
         
-    
         for cc in ccs:
+
+            # if cc is in excluded list, skip it
+            # if cc in excluded_cc:
+            #     continue
             
             output_file = zonemaster_folder +"/zonemaster_" +str(cc)+".json"
             if not os.path.isfile(output_file):
                 print("Getting zone master results for " + str(cc))
                 run_zonemaster(cc, output_file)
             
+            
             zonemaster_result, dataframe = get_zonemaster(cc, output_file)
             zonemaster_data_df = pd.concat([zonemaster_data_df, pd.DataFrame.from_records(dataframe)], ignore_index=True)
+            
 
             zonemaster_level = None
             zonemaster_modules = []
@@ -945,24 +970,35 @@ if __name__ == "__main__":
 
             for zmodule in zonemaster_modules:
                 for tagdata in zonemaster_data[zmodule]:
-                    
-
-                    zdf = zdf.append({
+                    row = [{
                             'cc': cc,
                             'level': zonemaster_level,
                             'module': zmodule,
                             'tag': tagdata['tag']
-                        }, ignore_index=True)
+                        }]
+                    zdf = pd.concat([zdf,pd.DataFrame(row)], ignore_index=True)
             
             get_nss = GetDns()
             print("Checking NS records for " + str(cc))
-            tld_nss = get_nss.get_common_ns(cc)
+            # to accommodate connection timed out, try n times
+            trial = 0
+            while trial<5:
+                try:
+                    tld_nss = get_nss.get_common_ns(cc)
+    
+                    result = nic_client.whois_lookup(cc)
+                    nss = result['name_servers']
+                    dnssec = True if result['dnssec'] else False
+                    dnskey_algo = None
+                    whois_server = result['whois'] if result['whois'] else None
+                    break
+                except Exception as e:
+                    # if connection timed out
+                    trial = trial + 1
+                    print(f'getdns failed! Try again!')
+                    print(e)
+                    continue
 
-            result = nic_client.whois_lookup(cc)
-            nss = result['name_servers']
-            dnssec = True if result['dnssec'] else False
-            dnskey_algo = None
-            whois_server = result['whois'] if result['whois'] else None
 
             if dnssec:
                 print("Checking DS records for " + str(cc))
@@ -972,6 +1008,8 @@ if __name__ == "__main__":
                 else:
                     dsset = result['dnssec'].split(" ")
                 dnskey_algo = dnssec_algo_dict[dsset[1]]
+            else:
+                print(f'No DNSSEC. Skip DS records query for {cc}')
                     
             deploy360 = cc in af_deploy360
             if nss:
@@ -1027,7 +1065,7 @@ if __name__ == "__main__":
                             else:
                                 print('No anycast ' + str(nsip))
 
-                        df = df.append({
+                        row = [{
                             'cc': cc,
                             'dnssec': dnssec,
                             'dnssec_algo': dnskey_algo,
@@ -1041,7 +1079,9 @@ if __name__ == "__main__":
                             'authoritative': autoritative_ns,
                             'anycast_provider': provider,
                             'anycast_provider_ratio': ','.join(provider_list)
-                        }, ignore_index=True)
+                        }]
+
+                        df = pd.concat([df,pd.DataFrame(row)],ignore_index=True)
                     
 
                 out_region = [((ip6_out_region + ip4_out_region)/(ip4_count + ip6_count))*100]  * (ip4_count + ip6_count)
@@ -1068,6 +1108,7 @@ if __name__ == "__main__":
 
             
             else:
+                print(f'No NS records found for {cc}!')
                 df = df.append({
                     'cc': cc,
                     'dnssec': False,

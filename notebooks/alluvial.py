@@ -164,7 +164,7 @@ class AlluvialTool:
                     l_a_rect, l_b_rect = self.get_label_rectangles_xy(a_item, b_item)
                     alluvial_fan += [
                         [self.generate_alluvial_vein(a_item, b_item), l_a_rect, l_b_rect, a_item, b_item, ]]
-        return np.array(alluvial_fan)
+        return np.asarray(alluvial_fan, dtype="object")
 
     def plot(self, figsize=(10, 15), alpha=0.5, **kwargs):
         colors = self.get_color_array(**kwargs)
